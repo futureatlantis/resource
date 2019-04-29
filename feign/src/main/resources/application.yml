@@ -1,0 +1,14 @@
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:10001/eureka/
+server:
+  port: 10004
+spring:
+  application:
+    name: feign-consumer-service
+#    ´ò¿ª¶ÏÂ·Æ÷
+feign:
+  hystrix:
+    enabled: true
