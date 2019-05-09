@@ -12,6 +12,6 @@ zuul:
     ribbon-consumer-service:
       path: /ribbon-consumer/**
       serviceId: ribbon-consumer-serivce
-    feign-consumer-service:
-      path: /figen-consumer/**
-      serviceId: feign-consumer-service
+#    feign-consumer-service:
+#      path: /figen-consumer/**
+#      serviceId: feign-consumer-service
